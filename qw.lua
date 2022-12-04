@@ -131,7 +131,7 @@ for i,v in pairs(ids) do
 						local rooms = workspace.CurrentRooms
 						for i,v in pairs(rooms:GetChildren()) do
 							if rooms[tostring(v)]:FindFirstChild("Gate") then
-								novoline["Utility"]["CreateNotification"]("AntiGate","Removed a gate!",5)
+							game.StarterGui:SetCore("SendNotification", {Title = "qwertyware", Text = "Removed a gate!"})
 								rooms[tostring(v)].Gate:Destroy()
 							end
 						end
