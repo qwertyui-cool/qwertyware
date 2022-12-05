@@ -30,7 +30,7 @@ local colors = {
 }
 local wronggame = true
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("qwertyware - 1.0", colors)
+local Window = Library.CreateLib("qwertyware - 1.1", colors)
 for i,v in pairs(ids) do
 	if game.PlaceId == v then
 		wronggame = false
