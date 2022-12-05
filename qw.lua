@@ -1,3 +1,10 @@
+--[[
+#
+Main Developer: qwertyui#4134
+Developer: hax#2530
+#
+]]--
+
 local lplr = game.Players.LocalPlayer
 local Run = {RenderStepTable = {}, StepTable = {}, HeartTable = {}}
 local ids = {
